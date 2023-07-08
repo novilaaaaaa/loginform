@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: darkseagreen;
+}
+header{
+    background-color: wheat;
+    padding: 15px;
+}
+header h1{
+    text-align: center;
+    color: chocolate;
+}
+main{
+    width: 400px;
+    background-color: cornsilk;
+    margin: auto;
+    padding: 15px;
+}
+
+li{
+    list-style: none;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+    padding: 7px;
+}
+.item:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+#last-item{
+    background-color: cornsilk;
+}
+li span{
+    float: right;
+}

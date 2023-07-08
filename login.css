@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: darkseagreen;
+}
+header{
+    background-color: wheat;
+    padding: 15px;
+}
+header h1{
+    text-align: center;
+    color: chocolate;
+}
+.btn-nav{
+    display: block;
+    background-color: cadetblue;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-nav:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+main{
+    width: 400px;
+    background-color: cornsilk;
+    margin: auto;
+    padding: 15px;
+}
+label, 
+input{
+    display: block;
+}
+label{
+    margin-bottom: 5px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+button{
+    padding: 5px 8px;
+}
+.error-message{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.success-message{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    margin-bottom: 5px;
+}
